@@ -2,3 +2,8 @@ language: java
 
 script:
   - javac Main.java
+
+jdk:
+  - oraclejdk8
+  - oraclejdk9
+  - openjdk8
